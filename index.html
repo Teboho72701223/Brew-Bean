@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Brew & Bean | Home</title>
 </head>
@@ -11,66 +12,55 @@
 <body>
 
     <!-- Header containing the business name and slogan -->
-    <header>
+    <header class="navbar">
 
-        <h1>Brew & Bean</h1>
+        <div class="logo">
+            <strong>BREW & BEAN</strong>
+            <small>COFFEE FILLED MOMENTS</small>
+        </div>
+        
+        <!-- Navigation menu connecting the website pages -->
+        <nav>
+            <a  href="index.html">HOME</a>
+            <a  href="menu.html">MENU</a>
+            <a  href="about.html">ABOUT US</a>
+            <a  href="contact.html">CONTACT</a>
+        </nav>
 
-        <p>
-            Fresh Coffee. Fresh Moments.
-        </p>
-
+        <div class="navigation_right_side">
+            <button class="search_button"> 🔎</button>
+            <button class="order_button">ORDER ONLINE</button>
+        </div>
     </header>
-
-
-    <!-- Navigation menu connecting the website pages -->
-    <nav>
-
-        <a href="index.html">Home</a>
-
-        <a href="menu.html">Menu</a>
-
-        <a href="about.html">About Us</a>
-
-        <a href="contact.html">Contact</a>
-
-    </nav>
-
 
     <!-- Main content of the homepage -->
     <main>
 
         <!-- Hero section -->
-        <section>
+        <section class="hero">
+            <div>
+                <p class="top_of_slogan">FRESHLY BREWED. PERFECTLY CRAFTED.</p>
+                <h2 class="slogan">Good Coffee.<br><em class="second_part">Great Moments.</em></h2>
 
-            <h2>Welcome to Brew & Bean</h2>
+                <img src="images/hero.jpg"
+                    alt="Freshly prepared coffee at Brew and Bean">
 
-            <img src="images/hero.jpg"
-                 alt="Freshly prepared coffee at Brew and Bean">
+                <p class="bottom_of_slogan">
+                    Brew & Bean is a welcoming coffee shop where customers<br>
+                    can enjoy freshly prepared coffee, refreshing drinks,<br>
+                    delicious bakery items and desserts.
+                </p>
 
-            <p>
-                Brew & Bean is a welcoming coffee shop where customers
-                can enjoy freshly prepared coffee, refreshing drinks,
-                delicious bakery items and desserts.
-            </p>
-
-            <p>
-                Whether you are starting your morning, meeting friends
-                or taking a break from a busy day, Brew & Bean provides
-                a comfortable place to enjoy great food and drinks.
-            </p>
-
-            <a href="menu.html">View Our Menu</a>
-
+                <a href="menu.html"><button class="menu_button">VIEW OUR MENU</button></a>
+                <a href="contact.html"><button class="contact_button">CONTACT US</button></a>
+            </div>
         </section>
 
 
         <!-- Coffee section -->
-        <section>
+        <section class="beverages">
 
             <h2>Our Coffee</h2>
-
-            <img src="images/coffee.jpg"
-                 alt="Freshly prepared coffee">
 
             <p>
                 Enjoy a selection of freshly prepared coffee including
@@ -81,7 +71,7 @@
 
 
         <!-- Bakery section -->
-        <section>
+        <section class="bakery">
 
             <h2>Fresh Bakery</h2>
 
@@ -98,7 +88,7 @@
 
 
         <!-- Why choose us -->
-        <section>
+        <section class="why_us">
 
             <h2>Why Choose Brew & Bean?</h2>
 
@@ -120,7 +110,7 @@
 
 
         <!-- Call to action -->
-        <section>
+        <section class="stores">
 
             <h2>Visit Brew & Bean</h2>
 

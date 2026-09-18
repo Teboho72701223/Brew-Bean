@@ -2,50 +2,59 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Brew & Bean | About Us</title>
-
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header>
+    <!-- Header containing the business name and slogan -->
+    <header class="navbar">
 
-        <h1>Brew & Bean</h1>
+        <div class="logo">
+            <strong><em>Brew</em>&Bean</strong>
+            <small>COFFEE FILLED MOMENTS</small>
+        </div>
 
-        <p>
-            Fresh Coffee. Fresh Moments.
-        </p>
+        <!-- Navigation menu connecting the website pages -->
+        <nav class="navigation">
+            <a  href="index.html">HOME</a>
+            <a  href="menu.html">MENU</a>
+            <a  href="about.html">ABOUT US</a>
+            <a  href="contact.html">CONTACT</a>
+        </nav>
 
+        <div class="navigation_right_side">
+            <button class="search_button"> ⌕</button>
+            <button class="order_button">ORDER ONLINE</button>
+        </div>
     </header>
 
-
-    <!-- Navigation -->
-    <nav>
-
-        <a href="index.html">Home</a>
-
-        <a href="menu.html">Menu</a>
-
-        <a href="about.html">About Us</a>
-
-        <a href="contact.html">Contact</a>
-
-    </nav>
-
-
-    <!-- Main content -->
+    <!-- Main content of the about page -->
     <main>
 
-        <section>
+        <!-- Page banner (smaller hero used on interior pages) -->
+        <section class="page_banner">
+            <img src="images/about us_image.jpg" alt="Interior of Brew and Bean coffee shop">
 
-            <h2>About Brew & Bean</h2>
+            <div class="page_banner_text">
+                <span class="menu_eyebrow">GET TO KNOW US</span>
+                <h1>About Brew & Bean</h1>
+                <p class="page_banner_desc">
+                    A welcoming coffee shop created for customers who enjoy
+                    quality coffee, fresh food and a comfortable environment.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Our story -->
+        <section class="content_section">
+            <p class="menu_eyebrow">OUR STORY</p>
+            <h2>More Than Just A Coffee Shop</h2>
 
             <p>
                 Brew & Bean is a welcoming coffee shop created for
@@ -59,46 +68,40 @@
                 where people can relax, meet friends or enjoy a
                 quiet moment.
             </p>
-
         </section>
 
 
-        <section>
-
-            <h2>Our Mission</h2>
+        <!-- Our mission -->
+        <section class="content_section alt">
+            <p class="menu_eyebrow">OUR MISSION</p>
+            <h2>What Drives Us</h2>
 
             <p>
                 Our mission is to provide quality coffee and fresh
                 food while giving customers a welcoming and enjoyable
                 coffee shop experience.
             </p>
-
         </section>
 
 
-        <section>
+        <!-- Our values -->
+        <section class="content_section">
+            <p class="menu_eyebrow">OUR VALUES</p>
+            <h2>What We Stand For</h2>
 
-            <h2>Our Values</h2>
-
-            <ul>
-
+            <ul class="values_list">
                 <li>Quality</li>
-
                 <li>Freshness</li>
-
-                <li>Customer satisfaction</li>
-
-                <li>Friendly service</li>
-
+                <li>Customer Satisfaction</li>
+                <li>Friendly Service</li>
                 <li>Community</li>
-
             </ul>
-
         </section>
 
 
-        <section>
-
+        <!-- What makes us different -->
+        <section class="content_section alt">
+            <p class="menu_eyebrow">WHY BREW & BEAN</p>
             <h2>What Makes Us Different?</h2>
 
             <p>
@@ -107,20 +110,64 @@
                 comfortable environment.
             </p>
 
+            <div class="cta_buttons">
+                <a href="menu.html"><button class="menu_button">VIEW OUR MENU</button></a>
+                <a href="contact.html"><button class="contact_button">CONTACT US</button></a>
+            </div>
         </section>
 
     </main>
 
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-col brand">
+                <h3>BREW & BEAN</h3>
+                <span class="sub">COFFEE HOUSE</span>
+                <p>Good coffee, great vibes and moments to remember.</p>
+            </div>
 
-        <p>
-            &copy; 2026 Brew & Bean. All rights reserved.
-        </p>
+            <div class="footer-col">
+                <h4>STAY UPDATED</h4>
+                <p>Subscribe to get special offers, updates and coffee inspo straight to your inbox.</p>
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Enter your email">
+                    <button>SUBSCRIBE</button>
+                </div>
+            </div>
 
+            <div class="footer-col">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>OPENING HOURS</h4>
+                <p>Monday - Friday<br>7:00 AM - 9:00 PM</p>
+                <br>
+                <p>Saturday - Sunday<br>8:00 AM - 10:00 PM</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>CONTACT US</h4>
+                <p>(+27) 79 765 4780</p>
+                <p>hello@brewandbean.com</p>
+                <br>
+                <p>123 Coffee Lane,<br>Lynwood, Pretoria 0001</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Brew & Bean Coffee House. All Rights Reserved.</p>
+            <p>Privacy Policy &nbsp; | &nbsp; Terms & Conditions</p>
+        </div>
     </footer>
 
 </body>
-
 </html>

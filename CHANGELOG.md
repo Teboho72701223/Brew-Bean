@@ -127,10 +127,45 @@ Brew & Bean website throughout the project.
 - Corrected broken links and file paths where necessary.
 
 ---
+## [1.9.0] - About Us and Contact Page Styling
+
+### Added
+
+- Styled the About Us page using the site's existing visual language (dark background, #d4a57a accent colour).
+- Added a page_banner section to About Us and Contact, replacing the plain unstyled heading with a smaller hero-style banner.
+- Added content_section styling for the About Us story, mission and values content, alternating between dark and panel backgrounds.
+- Added a values_list chip-style layout for the company values.
+- Added cta_buttons styling to the About Us page's closing call-to-action.
+- Styled the Contact page using a two-column contact_section layout, with contact_info for business details and contact_form_wrap for the enquiry form.
+- Styled all contact form fields (form_row, form_group) to match the site's dark theme, including input and textarea focus states.
+- Added a map_section with a map_placeholder box on the Contact page, left empty for a Google Maps (or other) embed to be added later.
+
+### Changed
+
+- Replaced the plain, unstyled <section> elements on About Us and Contact with the styled classes above.
+- Kept the header, navigation and footer identical across all pages.
+
+## [2.0.0] - Responsive Design
+
+### Added
+
+- Added responsive breakpoints across style.css for tablets, mobile phones and other smaller devices:
+- 1024px - small laptops / large tablets.
+- 900px - tablets (portrait).
+- 768px - tablets (portrait), including a wrapping navigation bar.
+- 600px - large phones.
+- 480px - phones.
+- 360px - small / older phones.
+- Added responsive scaling for the hero slogan, page banner heading and body text at each breakpoint.
+- Added responsive behaviour for the navigation menu, wrapping the nav links onto a new line on smaller screens.
+- Added responsive stacking for the About Us image/content layout, the Menu and Bakery sections, and the Contact page's info/form layout on smaller screens.
+- Added responsive column adjustments for the footer, collapsing from a multi-column layout down to a single column on phones.
+- Added a rule so an embedded map (e.g. a Google Maps iframe) placed inside .map_placeholder automatically fills the container at any screen size.
+
+-----
 
 ## Current Status
 
-The Brew & Bean website is a functional HTML prototype developed for
-the Web Development (Introduction) module.
+The Brew & Bean website is a functional HTML prototype developed for the Web Development (Introduction) module.
 
 Further improvements may be made as required by the project brief.

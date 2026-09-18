@@ -15,12 +15,12 @@
     <header class="navbar">
 
         <div class="logo">
-            <strong>BREW & BEAN</strong>
+            <strong><em>Brew</em>&Bean</strong>
             <small>COFFEE FILLED MOMENTS</small>
         </div>
         
         <!-- Navigation menu connecting the website pages -->
-        <nav>
+        <nav class="navigation">
             <a  href="index.html">HOME</a>
             <a  href="menu.html">MENU</a>
             <a  href="about.html">ABOUT US</a>
@@ -28,7 +28,7 @@
         </nav>
 
         <div class="navigation_right_side">
-            <button class="search_button"> 🔎</button>
+            <button class="search_button"> ⌕</button>
             <button class="order_button">ORDER ONLINE</button>
         </div>
     </header>
@@ -38,19 +38,21 @@
 
         <!-- Hero section -->
         <section class="hero">
-            <div>
+            <img src="images/bakery/hero.jpg"
+                                alt="Freshly prepared coffee at Brew and Bean">
+
+            <div class="hero_text">
                 <p class="top_of_slogan">FRESHLY BREWED. PERFECTLY CRAFTED.</p>
                 <h2 class="slogan">Good Coffee.<br><em class="second_part">Great Moments.</em></h2>
-
-                <img src="images/hero.jpg"
-                    alt="Freshly prepared coffee at Brew and Bean">
-
+                
                 <p class="bottom_of_slogan">
                     Brew & Bean is a welcoming coffee shop where customers<br>
                     can enjoy freshly prepared coffee, refreshing drinks,<br>
                     delicious bakery items and desserts.
                 </p>
+            </div>
 
+            <div class="hero_buttons">
                 <a href="menu.html"><button class="menu_button">VIEW OUR MENU</button></a>
                 <a href="contact.html"><button class="contact_button">CONTACT US</button></a>
             </div>
@@ -58,83 +60,211 @@
 
 
         <!-- Coffee section -->
-        <section class="beverages">
+        <section class="menu_section">
+            <div class="left_side_text">
+                <p class="menu_eyebrow">OUR BEVERAGE MENU</p>
 
-            <h2>Our Coffee</h2>
+                <h2>
+                    Crafted for Every<br>
+                    Coffee Lover
+                </h2>
 
-            <p>
-                Enjoy a selection of freshly prepared coffee including
-                espresso, cappuccino, latte, americano and mocha.
-            </p>
+                <p class="menu_desc">
+                    From rich expressos to creamy lattes and<br>
+                    refreshing cold brews, we have somthing<br>
+                    special for every taste.
+                </p>
+
+                <a href="menu.html"><button class="menu_button">VIEW OUR MENU</button></a>
+            </div>
+
+            <div class="menu_grid">
+                <div class="menu_card">
+                    <img src="images/beverages/cappacino.jpg" alt="cappacino image">
+                    <div class="card_info">
+                        <h4 class="item_name">Cappucino</h4>
+                        <p>Smooth, rich and perfectly balanced.</p>
+                        <h4>R 55.75</h4>
+                    </div>
+                </div>
+
+                <div class="menu_card">
+                    <img src="images/beverages/hot_chocolate.jpg" alt="Chocolate image">
+                    <div class="card_info">
+                        <h4 class="item_name">Hot Chocolate</h4>
+                        <p>Chocolatey, creamy and perfectly warmed</p>
+                        <h4>R 50.75</h4>
+                    </div>
+                </div>
+
+                <div class="menu_card">
+                    <img src="images/beverages/iced_caramel_latte.jpg" alt="cold drink image">
+                    <div class="card_info">
+                        <h4 class="item_name">Iced Caramel Coffee</h4>
+                        <p>Chilled, creamy and perfectly chilled</p>
+                        <h4>R 45.75</h4>
+                    </div>
+                </div>
+
+                <div class="menu_card">
+                    <img src="images/beverages/espresso.jpg" alt="expressos image">
+                    <div class="card_info">
+                        <h4 class="item_name">Expresso</h4>
+                        <p>Strong, rich and perfect aroma</p>
+                        <h4>R 20.50</h4>
+                    </div>
+                </div>
+            </div>
 
         </section>
 
 
         <!-- Bakery section -->
         <section class="bakery">
+            <div class="left_side_text">
+                <p class="menu_eyebrow">OUR BAKERY MENU</p>
 
-            <h2>Fresh Bakery</h2>
+                <h2>
+                    Every Bite<br>
+                    Feels Magical.
+                </h2>
+                
+                <p class="menu_desc">
+                    Our bakery selection includes freshly prepared pastries,
+                    muffins, cookies and other treats that pair perfectly
+                    with your favourite drink.
+                </p>
 
-            <img src="images/bakery.jpg"
-                 alt="Fresh bakery items">
+                <a href="menu.html"><button class="menu_button">VIEW OUR MENU</button></a>
+            </div>
 
-            <p>
-                Our bakery selection includes freshly prepared pastries,
-                muffins, cookies and other treats that pair perfectly
-                with your favourite drink.
-            </p>
+            <div class="menu_grid">
+                <div class="menu_card">
+                    <img src="images/bakery/brownie.jpg" alt="Brownie image">
+                    <div class="card_info">
+                        <h4 class="item_name">Brownie</h4>
+                        <p>Chocolatey, rich and perfectly infused with cocao.</p>
+                        <h4>R 30.75</h4>
+                    </div>
+                </div>
 
+                <div class="menu_card">
+                    <img src="images/bakery/cake.jpg" alt="Strawberry Cake image">
+                    <div class="card_info">
+                        <h4 class="item_name">Strawberry Cake</h4>
+                        <p>Sweet, delicious and perfectly moist</p>
+                        <h4>R 45.50</h4>
+                    </div>
+                </div>
+
+                <div class="menu_card">
+                    <img src="images/bakery/cheesecake.jpg" alt="chocolate cheesecake image">
+                    <div class="card_info">
+                        <h4 class="item_name">Choclate Cheesecake</h4>
+                        <p>Creamy, velvety and perfectly soft</p>
+                        <h4>R 45.50</h4>
+                    </div>
+                </div>
+
+                <div class="menu_card">
+                    <img src="images/bakery/cookies.jpg" alt="cookie image">
+                    <div class="card_info">
+                        <h4 class="item_name">Cookie</h4>
+                        <p>Crunchy, filled with cholate chips and soft chewy centre</p>
+                        <h4>R 15</h4>
+                    </div>
+                </div>
         </section>
 
 
-        <!-- Why choose us -->
-        <section class="why_us">
+        <!-- About us -->
+        <section class="about-section">
+            <div class="about-image">
+                <img src="images/about us_image.jpg" alt="Coffee shop interior">
+            </div>
 
-            <h2>Why Choose Brew & Bean?</h2>
+            <div class="about-content">
+                <p class="eyebrow">ABOUT US</p>
+                <h2>More Than Just<br>A Coffee Shop</h2>
+                <div class="line"></div>
+                <p class="about-desc">
+                At Brew & Co., we believe coffee brings people together.<br>
+                Our mission is to create a space where you can slow down,<br>
+                enjoy great coffee, and make beautiful memories.
+                </p>
 
-            <ul>
+                <div class="features">
+                <div class="feature">
+                    <div>
+                    <h4>Best Quality</h4>
+                    <p>We use premium beans<br>and fresh ingredients.</p>
+                    </div>
+                </div>
 
-                <li>Freshly prepared drinks</li>
+                <div class="feature">
+                    <div>
+                    <h4>Community First</h4>
+                    <p>A space for everyone<br>to connect and relax.</p>
+                    </div>
+                </div>
 
-                <li>Quality ingredients</li>
-
-                <li>Fresh bakery products</li>
-
-                <li>Comfortable atmosphere</li>
-
-                <li>Friendly customer service</li>
-
-            </ul>
-
-        </section>
-
-
-        <!-- Call to action -->
-        <section class="stores">
-
-            <h2>Visit Brew & Bean</h2>
-
-            <p>
-                Discover your next favourite coffee and treat at
-                Brew & Bean.
-            </p>
-
-            <a href="contact.html">Contact Us</a>
-
-        </section>
-
-    </main>
+                <div class="feature">
+                    <div>
+                        <a href="about.html"><button class="menu_button">ABOUT US</button></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </section>
 
 
-    <!-- Footer -->
-    <footer>
+            <footer class="footer">
+                <div class="footer-top">
+                    <div class="footer-col brand">
+                    <h3>BREW & BEAN</h3>
+                    <span class="sub">COFFEE HOUSE</span>
+                    <p>Good coffee, great vibes and moments to remember.</p>
+                    </div>
 
-        <p>
-            &copy; 2026 Brew & Bean. All rights reserved.
-        </p>
+                    <div class="footer-col">
+                    <h4>STAY UPDATED</h4>
+                    <p>Subscribe to get special offers, updates and coffee inspo straight to your inbox.</p>
+                    <div class="subscribe-box">
+                        <input type="email" placeholder="Enter your email">
+                        <button>SUBSCRIBE</button>
+                    </div>
+                    </div>
 
-    </footer>
+                    <div class="footer-col">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    </div>
 
-</body>
+                    <div class="footer-col">
+                    <h4>OPENING HOURS</h4>
+                    <p>Monday - Friday<br>7:00 AM - 9:00 PM</p>
+                    <br>
+                    <p>Saturday - Sunday<br>8:00 AM - 10:00 PM</p>
+                    </div>
 
+                    <div class="footer-col">
+                    <h4>CONTACT US</h4>
+                    <p>(+27) 79 765 4780</p>
+                    <p>hello@brewandbean.com</p>
+                    <br>
+                    <p>123 Coffee Lane,<br>Lynwood, Pretoria 0001</p>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>© 2026 Brew & Bean Coffee House. All Rights Reserved.</p>
+                    <p>Privacy Policy &nbsp; | &nbsp; Terms & Conditions</p>
+                </div>
+            </footer>
+    </body>
 </html>

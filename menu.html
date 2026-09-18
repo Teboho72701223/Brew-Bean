@@ -1,130 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+ 
     <title>Brew & Bean | Menu</title>
-
 </head>
-
+ 
 <body>
-
-    <!-- Header -->
-    <header>
-
-        <h1>Brew & Bean</h1>
-
-        <p>
-            Our Menu
-        </p>
-
+ 
+    <!-- Header containing the business name and slogan -->
+    <header class="navbar">
+ 
+        <div class="logo">
+            <strong><em>Brew</em>&Bean</strong>
+            <small>COFFEE FILLED MOMENTS</small>
+        </div>
+ 
+        <!-- Navigation menu connecting the website pages -->
+        <nav class="navigation">
+            <a href="index.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+ 
+        <div class="navigation_right_side">
+            <button class="search_button"> ⌕</button>
+            <button class="order_button">ORDER ONLINE</button>
+        </div>
     </header>
-
-
-    <!-- Navigation -->
-    <nav>
-
-        <a href="index.html">Home</a>
-
-        <a href="menu.html">Menu</a>
-
-        <a href="about.html">About Us</a>
-
-        <a href="contact.html">Contact</a>
-
-    </nav>
-
-
-    <!-- Main menu content -->
+ 
     <main>
-
-        <section>
-
-            <h2>Our Menu</h2>
-
-            <p>
-                Explore our selection of freshly prepared drinks,
-                bakery items and desserts.
-            </p>
-
+ 
+        <!-- Page banner -->
+        <section class="page_banner">
+            <img src="images/bakery/hero.jpg" alt="Freshly prepared coffee at Brew and Bean">
+ 
+            <div class="page_banner_text">
+                <p class="menu_eyebrow">OUR FULL MENU</p>
+                <h1>Good Coffee. Great Food.</h1>
+                <p class="page_banner_desc">
+                    Explore our full selection of freshly prepared drinks, bakery items and desserts,
+                    made daily with quality ingredients.
+                </p>
+            </div>
         </section>
-
-        <!-- Tea -->
-        <section>
-
-            <h2>Tea</h2>
-
-            <img src="images/coffee_machine.jpg"
-                 alt="Coffee machine">
-
-            <ul>
-
-                <li>Cappuccino — R25</li>
-                <img src="images/cappuccino.jpg" alt="Cappuccino">
-
-                <li>Latte — R28</li>
-                <img src="images/latte.jpg" alt="Latte">
-
-                <li>Espresso Shot — R10</li>
-                <img src="images/espresso.jpg" alt="Espresso">
-
-                <li>Chai Latte — R38</li>
-                <img src="images/chaii_latte.jpg" alt="">
-
-            </ul>
-
+ 
+ 
+        <!-- Beverages -->
+        <section class="menu_section">
+            <div class="left_side_text">
+                <p class="menu_eyebrow">OUR BEVERAGE MENU</p>
+ 
+                <h2>
+                    Crafted for Every<br>
+                    Coffee Lover
+                </h2>
+ 
+                <p class="menu_desc">
+                    From rich espressos to creamy lattes and refreshing cold brews, here is
+                    every drink we currently pour.
+                </p>
+            </div>
+ 
+            <div class="menu_grid">
+                <div class="menu_card">
+                    <img src="images/beverages/americano.jpg" alt="Americano">
+                    <div class="card_info">
+                        <h4 class="item_name">Americano</h4>
+                        <p>Bold, smooth and perfectly balanced.</p>
+                        <h4>R 35.00</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/beverages/cappacino.jpg" alt="Cappuccino">
+                    <div class="card_info">
+                        <h4 class="item_name">Cappuccino</h4>
+                        <p>Smooth, rich and perfectly balanced.</p>
+                        <h4>R 55.75</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/beverages/chaii_latte.jpg" alt="Chai Latte">
+                    <div class="card_info">
+                        <h4 class="item_name">Chai Latte</h4>
+                        <p>Spiced, creamy and perfectly warming.</p>
+                        <h4>R 42.00</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/beverages/espresso.jpg" alt="Espresso">
+                    <div class="card_info">
+                        <h4 class="item_name">Espresso</h4>
+                        <p>Strong, rich and perfect aroma.</p>
+                        <h4>R 20.50</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/beverages/hot_chocolate.jpg" alt="Hot Chocolate">
+                    <div class="card_info">
+                        <h4 class="item_name">Hot Chocolate</h4>
+                        <p>Chocolatey, creamy and perfectly warmed.</p>
+                        <h4>R 50.75</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/beverages/iced_caramel_latte.jpg" alt="Iced Caramel Latte">
+                    <div class="card_info">
+                        <h4 class="item_name">Iced Caramel Latte</h4>
+                        <p>Chilled, creamy and perfectly balanced.</p>
+                        <h4>R 45.75</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/beverages/iced_tea.jpg" alt="Iced Tea">
+                    <div class="card_info">
+                        <h4 class="item_name">Iced Tea</h4>
+                        <p>Refreshing, fruity and perfectly chilled.</p>
+                        <h4>R 38.00</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/beverages/latte.jpg" alt="Latte">
+                    <div class="card_info">
+                        <h4 class="item_name">Latte</h4>
+                        <p>Silky, smooth and perfectly balanced.</p>
+                        <h4>R 48.00</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/beverages/strawberry_matcha.jpg" alt="Strawberry Matcha">
+                    <div class="card_info">
+                        <h4 class="item_name">Strawberry Matcha</h4>
+                        <p>Earthy, fruity and perfectly refreshing.</p>
+                        <h4>R 52.00</h4>
+                    </div>
+                </div>
+            </div>
         </section>
-
-
+ 
+ 
         <!-- Bakery -->
-        <section>
-
-            <h2>Desserts</h2>
-
-            <img src="images/desserts.jpg"
-                 alt="Dessert selection">
-
-            <ul>
-
-                <li>Cheesecake — R45</li>
-                <img src="images/cheesecake.jpg" alt="Cheesecake">
-
-                <li>Cake — R40</li>
-                <img src="images/cake.jpg" alt="Cake">
-
-                <li>Croissant — R40</li>
-                <img src="images/croissant.jpg" alt="Croissant">
-
-                <li>Brownie — R35</li>
-                <img src="images/brownie.jpg" alt="Brownie">
-
-                <li>Cookie — R20</li>
-                <img src="images/cookie.jpg" alt="Cookie">
-
-                <li>Muffin — R25</li>
-                <img src="images/muffin.jpg" alt="Muffin">
-
-            </ul>
-
+        <section class="bakery">
+            <div class="left_side_text">
+                <p class="menu_eyebrow">OUR BAKERY MENU</p>
+ 
+                <h2>
+                    Every Bite<br>
+                    Feels Magical.
+                </h2>
+ 
+                <p class="menu_desc">
+                    Freshly baked pastries, muffins, cookies and other treats made daily to pair
+                    perfectly with your favourite drink.
+                </p>
+            </div>
+ 
+            <div class="menu_grid">
+                <div class="menu_card">
+                    <img src="images/bakery/brownie.jpg" alt="Brownie">
+                    <div class="card_info">
+                        <h4 class="item_name">Brownie</h4>
+                        <p>Chocolatey, rich and perfectly infused with cocoa.</p>
+                        <h4>R 30.75</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/bakery/cake.jpg" alt="Strawberry Cake">
+                    <div class="card_info">
+                        <h4 class="item_name">Strawberry Cake</h4>
+                        <p>Sweet, delicious and perfectly moist.</p>
+                        <h4>R 45.50</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/bakery/cheesecake.jpg" alt="Chocolate Cheesecake">
+                    <div class="card_info">
+                        <h4 class="item_name">Chocolate Cheesecake</h4>
+                        <p>Creamy, velvety and perfectly soft.</p>
+                        <h4>R 45.50</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/bakery/cinnamon_roll.jpg" alt="Cinnamon Roll">
+                    <div class="card_info">
+                        <h4 class="item_name">Cinnamon Roll</h4>
+                        <p>Soft, sweet and perfectly spiced.</p>
+                        <h4>R 32.00</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/bakery/cookies.jpg" alt="Cookie">
+                    <div class="card_info">
+                        <h4 class="item_name">Cookie</h4>
+                        <p>Crunchy, filled with chocolate chips and a soft chewy centre.</p>
+                        <h4>R 15.00</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/bakery/croissant.jpg" alt="Croissant">
+                    <div class="card_info">
+                        <h4 class="item_name">Croissant</h4>
+                        <p>Buttery, flaky and perfectly golden.</p>
+                        <h4>R 28.00</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/bakery/dounts.jpg" alt="Donuts">
+                    <div class="card_info">
+                        <h4 class="item_name">Donuts</h4>
+                        <p>Sweet, soft and perfectly glazed.</p>
+                        <h4>R 22.00</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/bakery/muffin.jpg" alt="Muffin">
+                    <div class="card_info">
+                        <h4 class="item_name">Muffin</h4>
+                        <p>Moist, fluffy and perfectly baked.</p>
+                        <h4>R 25.00</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/bakery/pie.jpg" alt="Pie">
+                    <div class="card_info">
+                        <h4 class="item_name">Pie</h4>
+                        <p>Fruity, flaky and perfectly baked.</p>
+                        <h4>R 38.00</h4>
+                    </div>
+                </div>
+ 
+                <div class="menu_card">
+                    <img src="images/bakery/sourdough.jpg" alt="Sourdough Bread">
+                    <div class="card_info">
+                        <h4 class="item_name">Sourdough</h4>
+                        <p>Crusty, tangy and perfectly baked.</p>
+                        <h4>R 35.00</h4>
+                    </div>
+                </div>
+            </div>
         </section>
-
+ 
     </main>
-
-
+ 
+ 
     <!-- Footer -->
-    <footer>
-
-        <p>
-            &copy; 2026 Brew & Bean. All rights reserved.
-        </p>
-
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-col brand">
+                <h3>BREW & BEAN</h3>
+                <span class="sub">COFFEE HOUSE</span>
+                <p>Good coffee, great vibes and moments to remember.</p>
+            </div>
+ 
+            <div class="footer-col">
+                <h4>STAY UPDATED</h4>
+                <p>Subscribe to get special offers, updates and coffee inspo straight to your inbox.</p>
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Enter your email">
+                    <button>SUBSCRIBE</button>
+                </div>
+            </div>
+ 
+            <div class="footer-col">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+ 
+            <div class="footer-col">
+                <h4>OPENING HOURS</h4>
+                <p>Monday - Friday<br>7:00 AM - 9:00 PM</p>
+                <br>
+                <p>Saturday - Sunday<br>8:00 AM - 10:00 PM</p>
+            </div>
+ 
+            <div class="footer-col">
+                <h4>CONTACT US</h4>
+                <p>(+27) 79 765 4780</p>
+                <p>hello@brewandbean.com</p>
+                <br>
+                <p>123 Coffee Lane,<br>Lynwood, Pretoria 0001</p>
+            </div>
+        </div>
+ 
+        <div class="footer-bottom">
+            <p>© 2026 Brew & Bean Coffee House. All Rights Reserved.</p>
+            <p>Privacy Policy &nbsp; | &nbsp; Terms & Conditions</p>
+        </div>
     </footer>
-
 </body>
-
 </html>

@@ -1,177 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>Brew & Bean | Contact</title>
-
-</head>
-
-<body>
-
-    <!-- Header -->
-    <header>
-
-        <h1>Brew & Bean</h1>
-
-        <p>
-            Get in Touch
-        </p>
-
-    </header>
-
-
-    <!-- Navigation -->
-    <nav>
-
-        <a href="index.html">Home</a>
-
-        <a href="menu.html">Menu</a>
-
-        <a href="about.html">About Us</a>
-
-        <a href="contact.html">Contact</a>
-
-    </nav>
-
-
-    <!-- Main content -->
-    <main>
-
-        <section>
-
-            <h2>Contact Brew & Bean</h2>
-
-            <p>
-                Have a question or want to learn more about Brew & Bean?
-                Get in touch with us.
-            </p>
-
-        </section>
-
-
-        <!-- Contact information -->
-        <section>
-
-            <h2>Contact Information</h2>
-
-            <p>
-                <strong>Phone:</strong>
-                <a href="tel:+27123456789">
-                    012 345 6789
-                </a>
-            </p>
-
-            <p>
-                <strong>Email:</strong>
-                <a href="mailto:info@brewandbean.co.za">
-                    info@brewandbean.co.za
-                </a>
-            </p>
-
-            <p>
-                <strong>Location:</strong>
-                Pretoria, South Africa
-            </p>
-
-            <p>
-                <strong>Opening Hours:</strong>
-                Monday - Saturday, 07:00 - 18:00
-            </p>
-
-        </section>
-
-
-        <!-- Contact form -->
-        <section>
-
-            <h2>Send Us a Message</h2>
-
-            <form>
-
-                <label for="name">
-                    Full Name:
-                </label>
-
-                <input type="text"
-                       id="name"
-                       name="name">
-
-                <br><br>
-
-
-                <label for="email">
-                    Email Address:
-                </label>
-
-                <input type="email"
-                       id="email"
-                       name="email">
-
-                <br><br>
-
-
-                <label for="phone">
-                    Phone Number:
-                </label>
-
-                <input type="tel"
-                       id="phone"
-                       name="phone">
-
-                <br><br>
-
-
-                <label for="subject">
-                    Subject:
-                </label>
-
-                <input type="text"
-                       id="subject"
-                       name="subject">
-
-                <br><br>
-
-
-                <label for="message">
-                    Message:
-                </label>
-
-                <br>
-
-                <textarea id="message"
-                          name="message"
-                          rows="6"
-                          cols="40"></textarea>
-
-                <br><br>
-
-
-                <button type="submit">
-                    Send Message
-                </button>
-
-            </form>
-
-        </section>
-
-    </main>
-
-
-    <!-- Footer -->
-    <footer>
-
-        <p>
-            &copy; 2026 Brew & Bean. All rights reserved.
-        </p>
-
-    </footer>
-
-</body>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Brew & Bean | Contact</title>
+    </head>
+    <body>
+        <!-- Header containing the business name and slogan -->
+        <header class="navbar">
+
+            <div class="logo">
+                <strong><em>Brew</em>&Bean</strong>
+                <small>COFFEE FILLED MOMENTS</small>
+            </div>
+
+            <!-- Navigation menu connecting the website pages -->
+            <nav class="navigation">
+                <a  href="index.html">HOME</a>
+                <a  href="menu.html">MENU</a>
+                <a  href="about.html">ABOUT US</a>
+                <a  href="contact.html">CONTACT</a>
+            </nav>
+
+            <div class="navigation_right_side">
+                <button class="search_button"> ⌕</button>
+                <button class="order_button">ORDER ONLINE</button>
+            </div>
+        </header>
+
+        <!-- Main content of the contact page -->
+        <main>
+
+            <!-- Page banner (smaller hero used on interior pages) -->
+            <section class="page_banner">
+                <img src="images/bakery/hero.jpg" alt="Freshly prepared coffee at Brew and Bean">
+
+                <div class="page_banner_text">
+                    <span class="menu_eyebrow">WE'D LOVE TO HEAR FROM YOU</span>
+                    <h1>Contact Us</h1>
+                    <p class="page_banner_desc">
+                        Have a question or want to learn more about Brew & Bean?
+                        Get in touch with us.
+                    </p>
+                </div>
+            </section>
+
+
+            <!-- Contact info + form -->
+            <section class="contact_section">
+
+                <div class="contact_info">
+                    <h2>Get In Touch</h2>
+                    <p>
+                        Whether you have a question about our menu, want to book
+                        a table, or just want to say hello, our team is ready to help.
+                    </p>
+
+                    <div class="info_item">
+                        <h4>Phone</h4>
+                        <a href="">(+27) 79 765 4780</a>
+                    </div>
+
+                    <div class="info_item">
+                        <h4>Email</h4>
+                        <a href="mailto:info@brewandbean.co.za">info@brewandbean.co.za</a>
+                    </div>
+
+                    <div class="info_item">
+                        <h4>Location</h4>
+                        <p>123 Coffee Lane,<br>Lynwood, Pretoria 0001</p>
+                    </div>
+
+                    <div class="info_item">
+                        <h4>Opening Hours</h4>
+                        <p>Monday - Saturday<br>07:00 - 18:00</p>
+                    </div>
+                </div>
+
+                <div class="contact_form_wrap">
+                    <h2>Send Us a Message</h2>
+
+                    <form>
+
+                        <div class="form_row">
+                            <div class="form_group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name">
+                            </div>
+
+                            <div class="form_group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                        </div>
+
+                        <div class="form_row">
+                            <div class="form_group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form_group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject">
+                            </div>
+                        </div>
+
+                        <div class="form_row">
+                            <div class="form_group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6"></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="menu_button">SEND MESSAGE</button>
+
+                    </form>
+                </div>
+
+            </section>
+
+
+            <!-- Map placeholder-->
+            <section class="map_section">
+                <div class="map_placeholder">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57484.36727002025!2d28.212764521679684!3d-25.778061899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9561a327e6a2fb%3A0x23802c29aaf6d7e2!2sPlat%C5%8D%20Coffee%20-%20Lynnwood%20Glen!5e0!3m2!1sen!2sza!4v1789755545425!5m2!1sen!2sza" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="footer-col brand">
+                    <h3>BREW & BEAN</h3>
+                    <span class="sub">COFFEE HOUSE</span>
+                    <p>Good coffee, great vibes and moments to remember.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>STAY UPDATED</h4>
+                    <p>Subscribe to get special offers, updates and coffee inspo straight to your inbox.</p>
+                    <div class="subscribe-box">
+                        <input type="email" placeholder="Enter your email">
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>OPENING HOURS</h4>
+                    <p>Monday - Friday<br>7:00 AM - 9:00 PM</p>
+                    <br>
+                    <p>Saturday - Sunday<br>8:00 AM - 10:00 PM</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>CONTACT US</h4>
+                    <p>(+27) 79 765 4780</p>
+                    <p>hello@brewandbean.com</p>
+                    <br>
+                    <p>123 Coffee Lane,<br>Lynwood, Pretoria 0001</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Brew & Bean Coffee House. All Rights Reserved.</p>
+                <p>Privacy Policy &nbsp; | &nbsp; Terms & Conditions</p>
+            </div>
+        </footer>
+    </body>
 </html>
